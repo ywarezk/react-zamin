@@ -2,6 +2,30 @@
 
 In a nutshell what is React, and our first apps with React.
 
+## What is REACT
+
+- UI library
+- you create ui components
+
+```
+<App>
+---------<Header>
+----------------------> <NavBar>
+```
+
+```
+<App>
+```
+
+## to learn react
+
+React is suitable for different frontends: mobile, desktop , etc.
+
+Core React ------> Platform specific stuff of React
+core + web
+
+
+
 ## Lesson Plan
 
 - What is React
