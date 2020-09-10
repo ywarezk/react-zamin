@@ -12,6 +12,33 @@ We will go over the tools that create-react-app brings us, and the best practice
 - styles
 - deploy
 
+## To start a new React web site
+
+```
+npx create-react-app <project-name>
+```
+
+## CheatSheet commands
+
+start development server
+
+```
+> npm start
+```
+
+Build the app
+
+```
+> npm run build
+```
+
+exposes the webpack config file
+for custom modifications
+
+```
+> npm run eject
+```
+
 ## EX.
 
 - Create a new project using `create-react-app`
