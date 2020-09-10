@@ -43,6 +43,19 @@ for custom modifications
 
 - Create a new project using `create-react-app`
 - Create the login app but split every component to a different file
+  - App
+    - Header - add an image + local styling where you will position the image
+	- LoginForm
+	- Footer
+- install bootstrap design the components using bootstrap
+```
+npm install bootstrap
+```
+- design the app using scss
+```
+npm install node-sass
+```
 - Create a component that contains an image
 - create a stylesheet for one of the components
 - Create a styling project for the entire project
+  - and add styling for the buttons
