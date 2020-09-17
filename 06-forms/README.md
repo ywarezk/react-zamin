@@ -54,3 +54,7 @@ body: {
 	when: (new Date()).toISOString()
 }
 ```
+
+## EX h.w video
+
+https://www.youtube.com/watch?v=-tmLZX6scnY&t=943s
