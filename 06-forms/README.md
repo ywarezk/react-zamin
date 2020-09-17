@@ -32,3 +32,25 @@ How to deal with forms in our react app
 }
 ```
 - Upon success authorization the server will send an array of items that you should display then in `ul-li` list, the server will return 401 on failed authentication.
+
+## EX Custom hooks
+
+- Create the custom hook: 
+
+```
+const [logs, setLogs] = useLogs()
+```
+
+- this hook will bring logs from a server in the following url:
+`https://nztodo.herokuapp.com/api/tasks/?format=json`
+- The `setLogs` function will send a post request to create a new log
+```
+POST Request
+url: https://nztodo.herokuapp.com/api/task/?format=json`
+body: {
+	title: '...',
+	description: '...',
+	group: '...',
+	when: (new Date()).toISOString()
+}
+```

@@ -1,4 +1,22 @@
 {
-  "presets": ["@nrwl/web/babel"],
-  "babelrcRoots": ["*"]
+  "presets": [
+    "@nrwl/web/babel",
+    [
+      "@babel/preset-env",
+      {
+        "loose": true,
+        "modules": "commonjs"
+      }
+    ],
+    "@babel/preset-flow",
+    "@babel/preset-react"
+  ],
+  "babelrcRoots": ["*"],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-transform-runtime",
+    "babel-plugin-transform-react-remove-prop-types"
+  ]
 }
