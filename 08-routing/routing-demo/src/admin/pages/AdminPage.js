@@ -11,7 +11,7 @@ export default function AdminPage() {
 	return (
 		<>
 			<h1>
-				I'm in the admin page
+				I 'm in the admin page {process.env.REACT_APP_SOMETHING}
 			</h1>
 			<button onClick={navigateToAdmin}>
 				go to admin page
